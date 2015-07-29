@@ -1,9 +1,11 @@
 {
   "name": "tomahawq",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "Ale <ale@songbee.net>",
   "description": "A modern Tomahawk loader loader (ahh, so meta)",
-  "contributors": ["Uwe L. Korn <uwelk@xhochy.com>"],
+  "contributors": [
+    "Uwe L. Korn <uwelk@xhochy.com>"
+  ],
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "pullstream": "~0.4.0",
+    "q": "^1.4.1",
     "underscore": "^1.8.3",
     "unzip": "~0.1.11",
     "xmlhttprequest": "^1.7.0"
